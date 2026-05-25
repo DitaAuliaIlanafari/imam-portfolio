@@ -1,8 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
-import { GitFork, ExternalLink, Mail } from "lucide-react";
-
+import { Mail, GitFork, ExternalLink } from "lucide-react";
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-6 pt-24 pb-12">
@@ -45,7 +44,7 @@ export default function Hero() {
           {/* Social Links */}
           <div className="flex gap-5 mt-6 md:mt-8 justify-center md:justify-start">
             <a
-              href={portfolioData.github}
+              href={portfolioData.instagram}
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/40 hover:text-indigo-400 transition-colors duration-200"
@@ -76,10 +75,12 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.2 }}
         >
-          <div className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full border-2 border-indigo-500/30 shadow-2xl shadow-indigo-500/10 bg-gradient-to-br from-indigo-600/20 to-purple-600/20 flex items-center justify-center">
-            <span className="text-5xl sm:text-6xl md:text-8xl font-bold text-indigo-400/60 select-none">
-              {portfolioData.name.charAt(0)}
-            </span>
+          <div className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full border-2 border-indigo-500/30 shadow-2xl shadow-indigo-500/10 overflow-hidden">
+            <img
+              src="/avatar.jpeg"
+              alt={portfolioData.name}
+              className="w-full h-full object-cover object-top"
+            />
           </div>
           <div className="absolute inset-0 rounded-full bg-indigo-500/10 blur-2xl -z-10" />
           <div

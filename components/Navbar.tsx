@@ -23,8 +23,7 @@ export default function Navbar() {
     >
       <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
         <span className="font-bold text-indigo-400 tracking-tight text-lg">
-          {portfolioData.name.split(" ")[0]}
-          <span className="text-white">.</span>
+          PORTFOLIO
         </span>
 
         <ul className="hidden md:flex gap-8 text-sm text-white/60">

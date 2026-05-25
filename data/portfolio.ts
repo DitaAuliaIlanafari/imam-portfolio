@@ -1,12 +1,13 @@
 export const portfolioData = {
   name: "Imam Harits Nasruddin",
-  title: "Full Stack Developer",
-  subtitle: "React.js · Node.js · PostgreSQL",
-  bio: "Full Stack Developer with a background in Sharia Economic Law, combining legal insight with technical expertise to build secure, scalable, and user-focused web applications. Skilled in React.js, Node.js, PostgreSQL, Prisma ORM, RESTful APIs, and JWT authentication, with experience developing end-to-end modern web solutions using clean code practices in agile environments.",
-  email: "your@email.com", // ← replace with his real email
+  title: "Customer Service Sales Representative",
+  subtitle: "Communication · Problem Solving · Service Excellence",
+  bio: "Customer Service Sales Representative at Telkomsel with a background in Sharia Economic Law and a strong foundation in digital technology. Combines legal insight, ethical business values, and technical literacy to deliver clear, accurate, and human-centered service. Experienced in complaint handling, product consultation, and cross-functional coordination in fast-paced environments.",
+  email: "imam.harits24@gmail.com",
   linkedin: "https://www.linkedin.com/in/imamharitsnasruddin/",
-  github: "https://github.com/", // ← replace with his GitHub
-  avatar: "/avatar.jpg", // ← drop his photo in /public/avatar.jpg
+  instagram:
+    "https://www.instagram.com/imam_harits24?igsh=MTl0OG5xbWMzZXNidg%3D%3D&utm_source=qr",
+  avatar: "/avatar.jpg",
 
   experience: [
     {
@@ -38,7 +39,7 @@ export const portfolioData = {
       school: "Purwadhika Digital Technology School",
       period: "Oct 2024 – Feb 2025",
       description:
-        "Intensive bootcamp covering modern full stack web development. Skills: HTML5, CSS, JavaScript, React.js, Node.js, PostgreSQL, and more.",
+        "Intensive bootcamp covering modern full stack web development. Gained working knowledge of web technologies to support digital literacy and tech-savvy service delivery.",
     },
     {
       degree: "Sarjana Hukum (S.H.) — Hukum Ekonomi Syariah",
@@ -50,19 +51,17 @@ export const portfolioData = {
   ],
 
   skills: [
-    "React.js",
-    "Node.js",
-    "TypeScript",
-    "PostgreSQL",
-    "Prisma ORM",
-    "Express.js",
-    "RESTful APIs",
-    "JWT Authentication",
-    "Next.js",
-    "HTML5 & CSS",
-    "Git",
-    "Agile",
+    "Customer Service",
+    "Complaint Handling",
+    "Product Consultation",
+    "Clear Communication",
     "Problem Solving",
+    "Administrative Accuracy",
+    "Team Coordination",
+    "Digital Literacy",
     "Halal Certification",
+    "Ethical Business Practice",
+    "Agile Mindset",
+    "Microsoft Office",
   ],
 };

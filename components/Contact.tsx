@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
 import { Mail, GitFork, ExternalLink } from "lucide-react";
-
 const socials = [
   {
     label: "Email",
@@ -11,9 +10,9 @@ const socials = [
     display: portfolioData.email,
   },
   {
-    label: "GitHub",
+    label: "Instagram",
     icon: <GitFork size={20} />,
-    href: portfolioData.github,
+    href: portfolioData.instagram,
     display: "github.com/imam",
   },
   {
@@ -65,8 +64,7 @@ export default function Contact() {
         </motion.div>
 
         <p className="mt-20 text-white/20 text-sm">
-          © {new Date().getFullYear()} {portfolioData.name}. Built with Next.js
-          & Tailwind CSS.
+          © {new Date().getFullYear()} {portfolioData.name}.
         </p>
       </div>
     </section>
