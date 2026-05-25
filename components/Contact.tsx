@@ -13,7 +13,7 @@ const socials = [
     label: "Instagram",
     icon: <GitFork size={20} />,
     href: portfolioData.instagram,
-    display: "github.com/imam",
+    display: "imam_harits24",
   },
   {
     label: "LinkedIn",
